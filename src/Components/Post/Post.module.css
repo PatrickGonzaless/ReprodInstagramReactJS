@@ -1,0 +1,89 @@
+.header_post{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+.header_post .img_header_post{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.infos_post{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.img_post img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.footer_post{
+    padding: 10px 15px;
+}
+
+.engagement_post{
+    display: flex;
+    justify-content: space-between;
+}
+
+.engagement_post .icons1{
+    display: flex;
+    gap: 16px;
+}
+
+.icon{
+    cursor: pointer;
+}
+
+.like{
+    margin-top: 10px;
+}
+
+.like span{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.legend{
+    margin: 10px 0 3px;
+}
+
+.legend span{
+    font-weight: 500;
+}
+
+.hour_post time{
+    font-size: 11px;
+    color: var(--secondary);
+}
+
+.comment{
+    border-top: 1p solid var(--border-secondary);
+    margin-top: 8px;
+    display: flex;
+}
+
+.fake_comment{
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    gap: 16px;
+}
+
+.fake_comment input{
+    font-size: 16px;
+}
+
+.button{
+    color: rgb(50, 50, 249);
+    font-weight: 500;
+    background-color: #FFF;
+    opacity: 0.5;
+    cursor: pointer;
+}

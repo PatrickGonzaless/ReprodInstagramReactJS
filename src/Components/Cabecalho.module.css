@@ -1,0 +1,57 @@
+
+.header{
+    background-color:white;
+    border-bottom: 0.3px solid rgb(215, 210, 210);
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    max-width: 957px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  .header .container .logo{
+    width: 11%;
+    margin-top: 1%;
+    cursor: pointer;
+  }
+  
+  .pesquisa{
+    background-color: #EFEFEF;
+    height:35px;
+    border-radius: 5px;
+    width: 160%;
+    margin-left: 15%;
+  }
+  
+  .lupa{
+    position: absolute;
+    width: 1.5%;
+    left: 42%;
+    top: 18px;
+  }
+  
+  .pesquisa::-webkit-input-placeholder{
+    font-size: 15px;
+    padding-left: 43px;
+  }
+  
+  .menu_icons{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    cursor: pointer;
+  }
+  
+  .menu_icons .img_user{
+    width: 26px;
+    height: 26px;
+    border-radius: 100%;
+  }

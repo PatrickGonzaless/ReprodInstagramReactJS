@@ -1,0 +1,109 @@
+.header_suggestion{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header_suggestion img{
+    height: 56px;
+    width: 56px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.user_infos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user_infos button{
+    margin-left: 65%;
+    background-color: #FFF;
+    color: rgb(50, 50, 249);
+    font-weight: 500 ;
+}
+
+.user_infos .infos span{
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.user_infos .infos p{
+    font-size: 14px;
+    color: rgb(135, 135, 135);
+}
+
+.main_suggestion{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px 10px 0px;
+}
+
+.main_suggestion p{
+    font-size: 15px;
+    color:rgb(135, 135, 135);
+    font-weight: 500;
+}
+
+.main_suggestion span{
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.user_suggestion{
+    margin-top: 5px;
+}
+
+
+.infos_suggestion img{
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.infos_suggestion{
+    margin: 15px 0px 0px 5px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.infos_suggestion .follow{
+    font-size: 12px;
+    cursor: pointer;
+    color: rgb(50, 50, 249);
+    font-weight: 500;
+}
+
+.info_suggestion span{
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.info_suggestion p{
+    font-size: 13px;
+    color: rgb(135, 135, 135);
+    margin-top: 3px;
+}
+
+.footer_suggestion{
+    margin-top: 25px;
+    flex: 1;
+}
+
+.footer_suggestion p{
+    font-size: 12px;
+    color: var(--tertiary);
+    opacity: 0.4;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+
+
+
